@@ -1,0 +1,23 @@
+*{margin:0;padding:0}
+li{list-style:none}
+a{text-decoration: none}
+.box{height: 100%}
+.box{display: flex;flex-direction: column;}
+nav{flex-shrink: 0;height: 2.8rem;}
+.nav{height: 2.8rem;background:#111111; display:flex;justify-content: space-around;align-items: center;}
+.nav li{float: left;color: gray;font-size: 0.9rem}
+.nav img{width: 4rem;height: 1.4rem}
+.nav .im{width:1.1rem;height:1.3rem}
+.nav li:hover{color:#fff}
+section{flex:1;overflow: auto}
+.nav2{height: 3rem;display:flex;justify-content: space-around;align-items: center;background: #fff}
+.nav2 li{float: left;color:#000;font-size:1rem; }
+.nav2 li:hover{color:blue}
+.box .logo{height: 12rem;width: 100%}
+.list{height:7rem;display: flex;justify-content: space-around;border-bottom:1px solid #ccc;align-items: center}
+.box .list img{width:5.5rem;height:5.5rem;}
+.list dd{font-size: 1rem;display: flex;flex-direction: column;justify-content: space-around;align-items:flex-start;height: 7rem;}
+.list dd  p:nth-of-type(1){width: 9rem; }
+
+
+footer{flex-shrink: 0;height: 2.8rem;background:#111111;height: 2.8rem;}

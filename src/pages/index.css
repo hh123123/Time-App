@@ -1,0 +1,53 @@
+
+.normal {
+  font-family: Georgia, sans-serif;
+  margin-top: 4em;
+  text-align: center;
+}
+
+.welcome {
+  height: 328px;
+  background: url(../assets/yay.jpg) no-repeat center 0;
+  background-size: 388px 328px;
+}
+
+.list {
+  font-size: 1.2em;
+  margin-top: 1.8em;
+  list-style: none;
+  line-height: 1.5em;
+}
+
+.list code {
+  background: #f7f7f7;
+}
+ img{ width:22rem; height:42rem; opacity:1;transition:all 3s linear ; -webkit-transition:all 3s linear ; -moz-transition:all 3s linear ; -ms-transition:all 3s linear ; -o-transition:all 3s linear ; }
+/*img:active{opacity: 0;display: none;transition:all 3s linear ; -webkit-transition:all 3s linear ; -moz-transition:all 3s linear ; -ms-transition:all 3s linear ; -o-transition:all 3s linear ;} */
+.box{position: relative;}
+h3{
+  position: absolute;
+  left:3rem;
+  top:6rem;
+  z-index: 50;
+  font-size: 2rem;
+  font-weight: 600;
+  font-weight: normal;
+  font-family: "黑体";
+  color:orange;
+  border-radius:5px;
+  animation: ran 10s linear infinite;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -ms-border-radius:5px;
+  -o-border-radius:5px;
+}
+.imger{ border-radius:50% ; -webkit-border-radius:50% ; -moz-border-radius:50% ; -ms-border-radius:50% ; -o-border-radius:50% ;width:6rem;height: 6rem }
+@keyframes ran {
+  from {
+      backgroud-position: 0 0;
+  }
+  to {
+      background-position: 2000px 0;
+  }
+}
+

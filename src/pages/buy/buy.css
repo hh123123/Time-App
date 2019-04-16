@@ -1,0 +1,40 @@
+body, dd, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, td, textarea, th, tr, ul,
+figure{ margin: 0;padding: 0;}
+.box{height: 100%;display: flex;flex-direction: column;}
+li{list-style:none}
+a{text-decoration: none}
+.nav{height: 2.8rem;background:#111; display:flex;justify-content: space-around;align-items: center}
+.nav li{float: left;color: gray;font-size: 0.9rem}
+.nav img{width: 4rem;height: 1.4rem}
+.nav .im{width:1.1rem;height:1.3rem}
+.nav li:hover{color:#fff}
+
+.banner{height:3.2rem;display: flex;justify-content: space-around;align-items: center; background-color: #eee;}
+figure{display: flex;align-items: center;height: 3.2rem;}
+.banner span{display: block;margin-left: 0.16rem;}
+span img{width: 0.6rem;height: 0.6rem;}
+form{ height: 2rem;border:0.06rem solid #aaa; border-radius: 0.5rem ;display: flex;align-items: center;}
+form img{width: 1rem;height:1rem;margin-left:0.2rem; }
+form input{border: none;outline: none;font-size: 0.9rem;background:#eee;}
+
+.juli{border-top:0.06rem solid #aaa;height:2.2rem;border-bottom: 0.06rem solid #aaa; }
+.juli ul{display: flex;justify-content: space-around;align-items: center;height: 2.2rem;font-size: 0.7rem}
+.juli li img{width: 0.5rem;height: 0.3rem;margin-left: 0.2rem;}
+
+.ziying{display: flex;height: 1.5rem;background: #eee;justify-content: space-around;align-items: center;font-size: 0.7rem;}
+
+.action  li{height: 4.2rem;border-bottom: 0.06rem solid #ccc;}
+.action dl{display: flex;flex-direction: column;height: 4.2rem;margin: 0 0.5rem;}
+.action dl dt{display: flex;justify-content: space-between;margin: 0.5rem 0;font-size: 0.8rem;}
+.action dt b{font-weight: normal;font-size: 1rem;color: rgb(247, 163, 7)}
+.qi{color: rgb(247, 163, 7);font-size: 0.8rem;}
+.action dd{display: flex;font-size: 0.7rem;}
+.action dd p{white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+
+header{flex-shrink:0}
+footer{flex-shrink: 0;}
+section{flex: 1;overflow: auto}
+
+.fot{height: 2.6rem;}
+.fot a{color:gray}
+.fot ul{display: flex;justify-content: space-around;align-items: center;height: 2.6rem;}

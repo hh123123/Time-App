@@ -1,0 +1,383 @@
+
+*{margin:0;padding:0}
+li{list-style:none;}
+a{text-decoration: none}
+i,em{font-style: normal}
+.box{
+
+  height:100%;
+  display: flex;
+  flex-direction: column;
+    font-family: "helvetica neue","微软雅黑";
+    color: #333;
+
+
+}
+
+.menu{
+    display: flex;
+    flex-shrink:0;
+    height:55px;
+    width:100%;
+    background: #1c2635;
+
+  }
+   .menunav{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items:flex-start;
+     flex:1;
+    font-size:12px;
+    line-height:55px;
+    width:100%;
+    height:55px;
+    margin:0;
+    flex-wrap:nowrap;
+    padding-left:1rem;
+
+  }
+
+  .menunav li{
+    height:55px;
+  }
+  .normal {
+    font-family: Georgia, sans-serif;
+
+    width:100%;
+  }
+
+  .menunav li a span{
+    font-size: 1.3em;
+
+  }
+  .menunav li a{
+
+    color: #bbb;
+    display: inline-block;
+
+    line-height: 55px;
+    position: relative;
+    height:55px;
+
+
+  }
+
+
+
+
+  .new {
+    background: #d80808;
+    width: 2.8em;
+    height: 1.1em;
+    border-radius: 1em;
+    overflow: hidden;
+    color: #fff;
+    font-size: 1em;
+    line-height: 1.1em;
+    position: absolute;
+    top: .7em;
+    left: 2em;
+  }
+  .speciala{
+    position: relative;
+  }
+  li .tdcurr{
+    color:#fff;
+    font-weight: bold;
+    position: relative;
+  }
+
+  li  .tdcurr:after{
+
+    content: '';
+    height: .3em;
+    background: #fff;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+
+  .imgpic img{
+    width: 4rem;
+    height: 1.4rem;
+    margin-top:1rem;
+
+  }
+   .im{
+     width:1.1rem;
+     height:1.3rem;
+    margin-top:1rem;
+}
+
+
+section{
+
+    flex: 1;
+    overflow: auto;
+
+  }
+  .moviesearch{
+
+    background: #f6f6f6;
+    padding: 0.5rem 1.5rem 0.1rem;
+    border-bottom: 1px solid #d8d8d8;
+  }
+  .cityshow{
+    width:4rem;
+    margin-right: 1.5rem;
+
+    line-height: 1.8rem;
+
+  }
+  .cityshow b{
+    font-size: 1rem;
+      font-weight: normal;
+      display: inline-block;
+      vertical-align: middle;
+  }
+  .cityshow i{
+     display: inline-block;
+    width: .9rem;
+    height: .5rem;
+    margin-left: .5rem;
+    margin-top: .3rem;
+    background: url(https://static1.mtime.cn/html5/20190327113529/images/2014/i-tmore.png) no-repeat;
+    background-size: cover;
+
+  }
+  .searchbar{
+  margin-top:-1.8rem;
+  margin-left:4rem;
+  width:13rem;
+  height:2.3rem;
+  }
+
+  .upcoming, .thefilm {
+    background:#fff;
+    padding: 1.2rem 1.5rem 0rem 1.5rem;
+}
+
+
+ .title b, .title span {
+    font-size: 1.1rem;
+    line-height: 1.1;
+    font-weight:bold;
+}
+ .title span{
+    color: #999;
+}
+.upcoming .filmscroll{
+    padding-top: 2.1em;
+    height: 16.8em;
+    margin-right: -1.5em;
+    z-index: 0;
+    overflow-x: auto;
+    overflow: hidden;
+}
+.filmscroll ul{
+    position: relative;
+    width: 3033px;
+    left: 0px;
+    height:175px;
+
+}
+
+.tabletransition4{
+    transition: .4s all;
+}
+.filmscroll li {
+   /*  width: 28.2em; */
+    border: 1px solid #bbb;
+     border-bottom:none;
+    border-left: none;
+    padding: 1.5em .5em 0.2rem 0;
+    position: relative;
+    margin-right: 1em;
+    float:left;
+}
+.filmscroll .specailli{
+  border-bottom:1px solid #bbb!important;
+}
+.filmscroll li:first-child, .filmscroll li:first-child time {
+    padding-left: 0;
+}
+.filmscroll li time {
+    background: #fff;
+    color: #777;
+    position: absolute;
+    left: 0;
+    top: -0.8em;
+    padding: 0 .6em 0 1em;
+}
+.filmscroll li time span {
+    font-size: 1rem;
+}
+.tablemovielist .upmovie_pic {
+    float:left;
+    width: 8.5em;
+    height: 12.75em;
+}
+.tablemovielist .upmovie_pic {
+    overflow: hidden;
+
+}
+.tablemovielist .imgimg_box, .tablemovielist .upmovie_pic a, .tablemovielist .upmovie_pic {
+    width: 8.5em;
+    height: 10.75em;
+}
+.tablemovielist .upmovie_pic a {
+    display: block;
+    overflow: hidden;
+}
+.upmovie_pic img{
+  width: 8.5em;
+  height: 12.75em;
+    border: 1px solid #ddd;
+}
+ .upmovietxt {
+    float:left;
+    margin-left:1rem;
+    position: relative;
+}
+
+.upmovietxt dl {
+    padding-top: .05em;
+    min-height: 7.2em;
+}
+.upmovietxt dt {
+    margin-top: -0.2em;
+}
+.upmovietxt dt a{
+    color:#333;
+}
+.upmovietxt dt b {
+    font-size: 1rem;
+    vertical-align: middle;
+}
+.upmovietxt dd {
+    padding: 0.6rem 0 0;
+}
+.upmovietxt dd p {
+    font-size: 0.6rem;
+    line-height: 1.65;
+}
+.upmovietxt dd p b.color {
+    color: #ff8600;
+    font-weight: normal;
+}
+ .upmovietxt .btns a:first-child {
+    margin-right: .8em;
+}
+.m_btn_orange {
+    background: #ff8600;
+    color: #fff;
+    border: 1px solid #ff8600;
+}
+.m_btn_green {
+    border: 1px solid #659c0d;
+    color: #659c0d;
+}
+.m_btn_green,.m_btn_orange {
+    display: inline-block;
+    min-width: 4rem;
+    padding: 0.3rem 0;
+    border-radius: 40em;
+    text-align: center;
+}
+
+.txt_elli {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.lunbo .lunimg img{
+  width:100%;
+  height: 9rem;
+  display:block;
+}
+.lunbo .lunimg{
+  margin:0!important;
+}
+.movieshow{
+  overflow: hidden;
+  background:#fff;
+  padding-left:5px;
+}
+.movieshow ul{
+  height:auto;
+  overflow: hidden;
+}
+.movieshow li{
+  position: relative;
+}
+.movieshow h2{
+  margin:16px 0;
+}
+.showmsg h5{
+  display:block;
+  padding-bottom:0.8rem;
+  font-size: 1.3rem;
+  font-weight:normal;
+}
+.overstyle{
+  overflow:hidden!important;
+}
+.special1{
+  margin-top:1rem;
+  border-bottom:1px solid #bbb;
+  padding-bottom:10px;
+}
+.day{
+
+  position: absolute;
+  left:0;
+  top: 1.5em;
+}
+.showmsg img{
+  display:block;
+
+}
+.showmsg li{
+  width:100%;
+}
+.pic1{
+  margin-left:29px;
+}
+.imgpic11{
+  width: 110px !important;
+  height: 9.8em!important
+}
+.upmovietxt1{
+  margin-left:5px!important;
+}
+footer{
+    flex-shrink: 0;
+    border-top:1px solid #bbb;
+
+  }
+  .link{
+    height:3rem;
+
+  }
+  .link ul{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:3rem;
+
+  }
+  .link li a {
+    display: block;
+    text-align: center;
+    padding: 1.4rem 0.5rem 1.35rem;
+  }
+  .link a span {
+    color: #0074c5;
+    font-size: 1rem;
+  }

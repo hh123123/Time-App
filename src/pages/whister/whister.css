@@ -1,0 +1,28 @@
+*{margin:0;padding:0}
+li{list-style:none}
+a{text-decoration: none}
+img{display: block}
+.box{height: 100%}
+.box{display: flex;flex-direction: column;}
+nav{flex-shrink: 0;height: 2.8rem;}
+.nav{height: 2.8rem;background:#2b2424; display:flex;justify-content: space-around;align-items: center;}
+.nav li{float: left;color: gray;font-size: 0.9rem}
+.nav img{width: 4rem;height: 1.4rem}
+.nav .im{width:1.1rem;height:1.3rem}
+.nav li:hover{color:#fff}
+section{flex:1;overflow: auto}
+.nav2{height: 3rem;display:flex;justify-content: space-around;align-items: center;background: #fff}
+.nav2 li{float: left;color:#000;font-size:1rem; }
+.nav2 li:hover{color:blue}
+.movie{height:13rem;background:#f0f;width:100%}
+.movie img{width:100%;height:9rem}
+h2{height:4rem;background: gray;position: relative; }
+h2 p{float: right;width: 8rem;height: 2rem;margin-top: 2rem}
+.movie h2 p img{position: absolute;left:1.5rem;top:-3.6rem;width: 5rem;height: 7rem}
+.extens {display: flex;align-items: center;margin-left: 2rem;border-bottom:1px solid #ccc;}
+.extens h1{width:16rem;padding-top: 2rem;font-weight: normal;font-size: 1rem}
+.extens p{display: flex;align-items: center;}
+.extens p img{border-radius: 50%;margin-right: 2rem;width:2rem;height:2rem}
+.extens p b{margin-right: 2rem}
+
+footer{flex-shrink: 0;height: 2.8rem;background:#111111;height: 2.8rem;}

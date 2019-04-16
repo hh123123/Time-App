@@ -1,0 +1,35 @@
+body, dd, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, td, textarea, th, tr, ul,
+figure{ margin: 0;padding: 0;}
+
+.nav{height: 2.75rem;background:#111; display:flex;justify-content: space-between;}
+.nav img{height: 1rem;width: 1rem;margin: 0.8rem ;}
+
+
+.act{height:10.1rem;display: flex;margin-top: 1rem;margin-left: 0.5rem;}
+.tu img{width: 8.55rem;height: 9.75rem;}
+.det{position: relative;margin: 0.5rem;}
+.pingfen{position: absolute;top:1rem;left: 9rem;width: 1.75rem;height: 1.75rem;background: rgb(70, 189, 70);line-height: 1.75rem;padding-left: .2rem;color: #fff;}
+.commentSpecial{color: rgb(253, 186, 2);}
+.name,.nameEn{color: rgb(131, 131, 131);}
+.photo span{font-size: 1.2rem;}
+.time,.type,.releaseDate,.commentSpecial{font-size: 0.8rem;}
+ .story{height: auto;margin: 1rem;}
+.story span{font-size: .7rem;}
+
+.tupian{margin-top: 1rem;width: 100%;}
+.yanyuan{height: 2.5rem;display: flex;justify-content: space-between;margin: 1rem 1rem 0 1rem;align-items: center;}
+.zhao dl{width: 30%;margin: .5rem;}
+.zhao{display: flex;}
+.zhao img{width: 5.37rem;height: 5.37rem;}
+.zhao dl dd{text-align: center;}
+.zhao dl p{font-size: .7rem;}
+
+.fot{height: 2.75rem;background: #eee;display: flex;justify-content: space-around;}
+.fot img{width: 1rem;height: 1rem;}
+.xuanzuo{height: 2.75rem;padding-top: .9rem;color: #aaa;}
+.fot span{margin-top: .8rem;}
+.fot div{text-align: center;}
+
+header,footer{flex-shrink: 0}
+section{flex: 1;overflow: auto;}
+.box{height: 100%;display: flex;flex-direction: column;}
